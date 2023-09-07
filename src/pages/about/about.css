@@ -1,0 +1,125 @@
+.about-img {
+    z-index: -1;
+    width: 340px;
+}
+
+.about {
+    margin: 40px 0;
+    padding-left: 250px;
+    padding-bottom: 12px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.about-img img {
+    height: 400px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.about-con {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-con h1 {
+    color: rgb(165, 2, 2);
+    border-bottom: 2px solid grey;
+}
+
+.about .row {
+    margin-right: 0;
+    padding-right: 0;
+}
+
+@media screen and (max-width: 1400px) {
+    .about-con {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 600px;
+    }
+
+    .about-con p {
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width: 1250px) {
+    .about-con {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 460px;
+    }
+
+    .about-con p {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 920px) {
+    .about-con {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 420px;
+    }
+
+    .about-con p {
+        font-size: 14px;
+    }
+
+    .about-img {
+        z-index: -1;
+        width: 250px;
+    }
+
+    .about-img img {
+        height: 300px;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .about {
+        margin: 40px 0;
+        padding-left: 50px;
+        padding-bottom: 12px;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    }
+
+}
+
+
+@media screen and (max-width: 500px) {
+    .about-con {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-con p {
+        font-size: 14px;
+    }
+
+    .about {
+        margin: 20px 0;
+        margin-left: 10px;
+        padding-left: 20px;
+        padding-bottom: 12px;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    }
+
+    .about-img img {
+        height: 350px;
+        width: 100%;
+        border-radius: 10px;
+    }
+}

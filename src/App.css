@@ -1,0 +1,14 @@
+.containerp {
+  width: 98vw;
+  padding-left: 20px;
+  align-items: center;
+  justify-content: center;
+  padding-right: 20px;
+}
+
+.footer {
+  background-color: black;
+  color: whitesmoke;
+  margin: 0;
+  padding: 2px;
+}
